@@ -23,6 +23,7 @@ subprojects {
     repositories {
       jcenter()
       google()
+        mavenCentral()
     }
     dependencies {
       classpath deps.build.gradlePlugins.android
@@ -35,6 +36,7 @@ subprojects {
   repositories {
     jcenter()
     google()
+        mavenCentral()
   }
 
   afterEvaluate {
